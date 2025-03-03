@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-# test
+# testing out commits
 DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://user:password@localhost/lecture_notes")
 
 engine = create_engine(DATABASE_URL)
