@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: montserrat;
+}
+
+.navbar{
+  height: 50px;
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar svg{
+  height: 27px;
+  width: 27px;
+  margin-left: 15px;
+}
+
+.user-info{
+  position: relative;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85px;
+  font-family: lato;
+  font-size: 18px;
+}
+
+.user-logo{
+  height: 35px;
+  width: 35px;
+  background-color:aquamarine;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videos-info{
+  height: 100vw;
+  width: 300px;
+  background-color: beige;
+}
+
+.videos svg{
+  height: 17px;
+  width: 17px;
+  margin-right: 10px;
+}
+
+.videos-info ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.videos{
+  padding: 10px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0px;
+  border:solid 0.2px rgba(0, 0, 0, 0.1);
+}
