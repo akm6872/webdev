@@ -49,6 +49,7 @@ body{
   height: 100vw;
   width: 300px;
   background-color: beige;
+  /* display: none; */
 }
 
 .videos svg{
@@ -73,4 +74,18 @@ body{
   align-items: center;
   margin: 5px 0px;
   border:solid 0.2px rgba(0, 0, 0, 0.1);
+}
+
+.main-video{
+  position: absolute ;
+  right: 100px;
+  width: 1000px;
+  height: 600px;
+  background-color: blanchedalmond;
+  top: 70px;
+}
+
+.main-video iframe{
+  width: inherit;
+  height: inherit;
 }
