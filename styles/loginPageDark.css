@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #121212;
+    color: #E0E0E0;
+}
+
+
+
+.main{
+    position: relative;
+    top: 125px;
+    margin: 0px auto;
+    background-color: #1E1E1E;
+    height: 500px;
+    width: 900px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.side-bar{
+    width: 40%;
+    height: 100%;
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+}
+
+
+.signup-box pre{
+    text-decoration: none;
+    font-family: montserrat;
+    font-size: 20px;
+}
+
+.login-box{
+    
+    margin-top: 13px;
+    width: 50%;
+    height: 400px;
+    /* background-color: aquamarine; */
+    position: absolute;
+    right: 67px;
+    bottom: 60px;
+    font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.student-logo{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-box p, .login-box-signup p{
+    font-family: montserrat;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.login-box form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-detail{
+    height: 35px;
+    border: none;
+    border-bottom: black 2px solid;
+    width: 90%;
+    font-size: 16px;
+    /* margin: 0px 10px; */
+}
+
+.login-bt{
+    margin-top: 20px;
+    width: 80%;
+height: 40px;
+background-color: #00E5FF;
+color: black;
+border-radius: 20px;
+font-size: 18px;
+}
+
+.login-box pre a, .login-box-signup pre a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #FF4081;
+}
+
+.hr-line{
+    width:95%;
+    text-align:left;
+    margin-left:0; 
+    height: 3px; 
+    background-color: #004D40;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.side-bar-signup{
+    width: 40%;
+    height: 100%;
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    right: 0px;
+
+}
+
+.student-box{
+    position: absolute;
+    left: 70px;
+    top: 141px;
+}
+
+.logo-box{
+    height: 230px;
+    width: 186px;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.signup-box{
+    position: absolute;
+    right: 86px;
+    top: 141px;
+}
+
+.student-box pre{
+    text-decoration: none;
+    font-family: montserrat;
+    font-size: 20px;
+}
+
+.login-box-signup{
+    
+    margin-top: 13px;
+    width: 50%;
+    height: 400px;
+    /* background-color: aquamarine; */
+    position: absolute;
+    left: 67px;
+    bottom: 60px;
+    font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box-signup form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.signup-logo{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup{
+    display: flex;
+}
+
+.student{
+    display: none;
+}
